@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Mensaje de Bienvenida",
+        "status": "Enviado",
+        "fecha": "2023-10-01",
+        "destinatarios": 1200,
+        "conversaciones": 45
+    },
+    {
+        "nombre": "Oferta Especial",
+        "status": "Pendiente",
+        "fecha": "2023-10-05",
+        "destinatarios": 800,
+        "conversaciones": 30
+    },
+    {
+        "nombre": "Recordatorio de Pago",
+        "status": "Enviado",
+        "fecha": "2023-10-10",
+        "destinatarios": 1500,
+        "conversaciones": 60
+    },
+    {
+        "nombre": "Encuesta de Satisfacción",
+        "status": "Enviado",
+        "fecha": "2023-10-15",
+        "destinatarios": 2000,
+        "conversaciones": 80
+    },
+    {
+        "nombre": "Promoción de Verano",
+        "status": "Pendiente",
+        "fecha": "2023-10-20",
+        "destinatarios": 1000,
+        "conversaciones": 50
+    }
+]

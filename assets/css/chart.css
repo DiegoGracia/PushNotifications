@@ -1,0 +1,17 @@
+.chart-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.chart-container h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+canvas {
+    width: 100% !important;
+    height: 400px !important;
+}
