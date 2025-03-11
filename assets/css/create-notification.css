@@ -1,0 +1,103 @@
+.create-notification-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Separación de 10px entre secciones */
+}
+
+.white-container {
+    background-color: white;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-section h1 {
+    color: #2c3e50;
+}
+
+.input-container {
+    margin-bottom: 0; /* Eliminar margen inferior para usar gap */
+}
+
+.large-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.selection-container {
+    margin-bottom: 0; /* Eliminar margen inferior para usar gap */
+}
+
+.radio-buttons {
+    margin-bottom: 10px;
+}
+
+.radio-buttons label {
+    margin-right: 15px;
+}
+
+.country-selector {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.split-container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-container {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}

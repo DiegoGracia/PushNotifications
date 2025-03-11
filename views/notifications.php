@@ -2,7 +2,7 @@
     <div class="notificaciones-top-container">
         <h1>Notificaciones Push</h1>
         <?php
-        $action = "alert('Cambios guardados');";
+        $action = "window.location.href='index.php?section=create-notification';";
         $icon = "fas fa-save";
         $text = "Nueva Notificacion";
         include 'components/button.php'; 

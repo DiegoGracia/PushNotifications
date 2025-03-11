@@ -2,7 +2,7 @@
 // router.php
 
 // Lista de secciones permitidas
-$allowedSections = ['dashboard', 'notifications', 'audiencia', 'configuracion'];
+$allowedSections = ['dashboard', 'notifications', 'audiencia', 'configuracion','create-notification'];
 
 // Obtener el parámetro 'section' de la URL (por defecto es 'dashboard')
 $section = isset($_GET['section']) ? $_GET['section'] : 'dashboard';
