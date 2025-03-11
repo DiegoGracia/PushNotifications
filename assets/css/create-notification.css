@@ -2,13 +2,13 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Separación de 10px entre secciones */
+    gap: 10px; 
 }
 
 .white-container {
     background-color: white;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .input-container {
-    margin-bottom: 0; /* Eliminar margen inferior para usar gap */
+    margin-bottom: 0; 
 }
 
 .large-input {
@@ -35,7 +35,7 @@
 }
 
 .selection-container {
-    margin-bottom: 0; /* Eliminar margen inferior para usar gap */
+    margin-bottom: 0; 
 }
 
 .radio-buttons {
