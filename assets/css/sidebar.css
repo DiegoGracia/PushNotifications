@@ -1,6 +1,6 @@
 .sidebar {
-    width: 15vw;
-    background-color: #111533;
+    width: 400px;
+    background-color: #141533;
     color: white;
     height: 100vh;
     padding: 20px;
@@ -19,7 +19,7 @@
 }
 
 .sidebar .logo img {
-    max-width: 100px; 
+    max-width: 150px; 
 }
 
 .sidebar nav ul {
@@ -37,13 +37,13 @@
     font-size: 16px;
     display: flex;
     align-items: center;
-    padding: 10px 5px 10px 5px;
+    padding: 20px 10px 20px 10px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
 .sidebar nav ul li a:hover {
-    background-color: #4351a3; 
+    background-color: #3943C3; 
 }
 
 .sidebar nav ul li a i {
